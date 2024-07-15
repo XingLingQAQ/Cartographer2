@@ -51,7 +51,16 @@
 		<module>cartographer2_modulelands</module>
 		<module>cartographer2_modulegriefprevention</module>
 	</modules>
-
+    <repositories>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.io/repository/nms/</url>
+        </repository>
+        <repository>
+            <id>codemc</id>
+            <url>https://repo.codemc.io/repository/maven-public/</url>
+        </repository>
+    </repositories>
 	<build>
 		<plugins>
 			<plugin>
